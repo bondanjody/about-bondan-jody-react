@@ -1,8 +1,8 @@
 import pasFotoPic from '../../images/pas-foto.png';
 
 const Introduction = props => {
-    return  <div className="m-4 container w-3/4 mx-auto bg-teal-700 shadow-lg shadow-slate-800 rounded-md p-2 flex justify-center">
-                <div className='w-1/3 flex justify-center'>
+    return  <div className="md:m-4 md:container md:w-3/4 md:mx-auto bg-teal-700 shadow-lg shadow-slate-800 md:rounded-md p-2 flex md:justify-center">
+                <div className='lg:w-1/3 lg:flex lg:justify-center'>
                     <img src={pasFotoPic} className='rounded-md' alt={`${pasFotoPic}.png`} />
                 </div>
                 {/* Description */}
