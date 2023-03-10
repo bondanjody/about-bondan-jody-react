@@ -1,7 +1,7 @@
 const Languages = () => {
     return <div className="mt-4 bg-slate-300 py-4">
                 <h2 className="text-2xl text-center text-slate-800 mb-4">Languages</h2>
-                <div className="md:flex md:justify-center md:px-2 md:items-center">
+                <div className="md:flex md:justify-center md:px-2 md:items-center md:py-5">
                     <div className="w-3/4 mx-auto border border-slate-800 rounded-xl overflow-hidden md:w-1/3 md:h-auto">
                         <div className="bg-slate-800 text-white p-4 text-center font-semibold">
                             <h4>English</h4>
