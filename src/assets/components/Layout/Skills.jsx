@@ -12,7 +12,7 @@ const Skills = props => {
     return <div className="w-full mt-4 md:mt-2">
                 <h2 className="border-l-4 border-teal-500 px-2 text-xl font-semibold">Skills</h2>
                 {/* Skills container */}
-                <div className="mt-2 lg:mx-16">
+                <div className="m-2 lg:mx-16">
                     <div className="p-4 h-16 rounded-lg flex items-center hover:bg-gray-700 hover:text-white hover:shadow-lg hover:cursor-pointer">
                         <img src={htmlPic} alt={htmlPic} className="w-10 inline-block mr-4" /> 
                         <div className='w-full'>
