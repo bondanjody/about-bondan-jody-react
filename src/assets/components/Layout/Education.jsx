@@ -1,7 +1,7 @@
 const Education = props => {
     return <div className="bg-slate-600 py-4">
                 <h2 className="text-2xl text-center text-white mb-4">Education</h2>
-                <div className="md:flex md:justify-center md:px-2 md:items-center">
+                <div className="md:flex md:justify-center md:px-2 md:items-center md:py-5">
                     <div className="w-3/4 mx-auto border border-orange-400 rounded-xl overflow-hidden md:w-1/3 md:h-44">
                         <div className="bg-orange-400 p-4 text-center font-semibold">
                             <h4>SMKN 1 Bulukerto</h4>
