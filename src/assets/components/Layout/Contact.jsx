@@ -5,8 +5,8 @@ import twitterPic from '../../images/twitter.png';
 import githubPic from '../../images/github.png';
 
 const Contact = () => {
-    return  <div className="bg-slate-800 py-4">
-                <div className="text-white text-3xl p-4">
+    return  <div className="bg-slate-800 py-4 md:flex">
+                <div className="text-white text-3xl p-4 md:flex md:justify-center md:items-center md:text-4xl md:w-1/2">
                     <h2>Contact Me on :</h2>
                 </div>
                 <div className='px-4 text-slate-400'>
