@@ -14,21 +14,21 @@ const Contact = () => {
                         <img src={gmailPic} alt={`${gmailPic}.png`} className="w-5 inline-block mr-4" />
                         <a href='/' className='text-sm'>bondanjodys@gmail.com</a>
                     </div>
-                    <div className='flex items-center mt-2'>
+                    <div className='flex items-center mt-2 hover:text-teal-700 hover:cursor-pointer'>
                         <img src={githubPic} alt={`${githubPic}.png`} className="w-5 inline-block mr-4" />
-                        <a href='/' className='text-sm hover:text-teal-700'>bondanjody</a>
+                        <a href='/' className='text-sm'>bondanjody</a>
                     </div>
-                    <div className='flex items-center mt-2'>
+                    <div className='flex items-center mt-2 hover:text-teal-700 hover:cursor-pointer'>
                         <img src={fbPic} alt={`${fbPic}.png`} className="w-5 inline-block mr-4" />
-                        <a href='/' className='text-sm hover:text-teal-700'>Bondan Jody</a>
+                        <a href='/' className='text-sm'>Bondan Jody</a>
                     </div>
-                    <div className='flex items-center mt-2'>
+                    <div className='flex items-center mt-2 hover:text-teal-700 hover:cursor-pointer'>
                         <img src={twitterPic} alt={`${twitterPic}.png`} className="w-5 inline-block mr-4" />
-                        <a href='/' className='text-sm hover:text-teal-700'>bondan_js</a>
+                        <a href='/' className='text-sm'>bondan_js</a>
                     </div>
-                    <div className='flex items-center mt-2'>
+                    <div className='flex items-center mt-2 hover:text-teal-700 hover:cursor-pointer'>
                         <img src={igPic} alt={`${igPic}.png`} className="w-5 inline-block mr-4" />
-                        <a href='/' className='text-sm hover:text-teal-700'>bondanjs</a>
+                        <a href='/' className='text-sm'>bondanjs</a>
                     </div>
                 </div>
             </div>
