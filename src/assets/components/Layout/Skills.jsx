@@ -9,7 +9,7 @@ import pythonPic from '../../images/python.png';
 import tailwindPic from '../../images/tailwind.png';
 
 const Skills = props => {
-    return <div className="w-full mt-2">
+    return <div className="w-full mt-4 md:mt-2">
                 <h2 className="border-l-4 border-teal-500 px-2 text-xl font-semibold">Skills</h2>
                 {/* Skills container */}
                 <div className="mt-2 lg:mx-16">
