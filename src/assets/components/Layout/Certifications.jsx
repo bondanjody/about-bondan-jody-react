@@ -1,8 +1,42 @@
 import leftArrowPic from '../../images/leftarrow.png';
 import rightArrowPic from '../../images/rightarrow.png';
-import sertifikatPic from '../../images/Sertifikatdutabangsa1.jpg';
+import javascriptDasarCert1 from '../../images/sertifikat_course_javascript_dasar_DICODING-1.png';
+import javascriptDasarCert2 from '../../images/sertifikat_course_javascript_dasar_DICODING-2.png';
+import javascriptDasarCert3 from '../../images/sertifikat_course_javascript_dasar_DICODING-3.png';
+import pythonPcapCert from '../../images/pythonpcap.png';
+import devHacksCert from '../../images/sertifikat-developer-life-hacks-menggunakan-chatgpt-certificate-1.png';
+import dutaBangsa1 from '../../images/Sertifikatdutabangsa1.jpg';
+import dutaBangsa2 from '../../images/Sertifikatdutabangsa2.jpg';
+import flutterCert from '../../images/sertifikat-everything-you-need-to-know-about-flutter-forward-certificate-1.png';
 
 const Certifications = () => {
+    const certificateDatas = [
+        {
+            title: 'Belajar Dasar Pemrograman Javascript',
+            issuedBy: 'Dicoding',
+            pics: [javascriptDasarCert1, javascriptDasarCert2, javascriptDasarCert3]
+        },
+        {
+            title: 'Sertifikat Kompetensi Duta Bangsa',
+            issuedBy: 'Duta Bangsa',
+            pics: [dutaBangsa1, dutaBangsa2]
+        },
+        {
+            title: 'PCAP: Programming Essentials in Python',
+            issuedBy: 'Cisco Networking Academy',
+            pics: [pythonPcapCert]
+        },
+        {
+            title: 'Developer Life Hacks Menggunakan ChatGPT',
+            issuedBy: 'Dicoding',
+            pics: [devHacksCert]
+        },
+        {
+            title: 'Everything You Need to know About Flutter Forward!',
+            issuedBy: 'Dicoding',
+            pics: [flutterCert]
+        }
+    ]
     return <div className="w-full mt-4 md:mt-2">
         <h2 className="border-l-4 border-teal-500 px-2 text-xl font-semibold mb-1 md:mb-2">Certifications</h2>
         <div className="mx-1 border rounded-md p-4">
