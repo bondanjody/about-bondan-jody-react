@@ -59,8 +59,16 @@ const Certifications = () => {
         setCertificateIndex(prevData => prevData-1);
     }
 
+    const showHandler = () => {
+        setShowPreview(true);
+    }
+
+    const hideHandler = () => {
+        setShowPreview(false);
+    }
+
     return <Fragment>
-        {showPreview && <CertificationPreview datas={certificateDatas[certificateIndex]} />}
+        {showPreview && <CertificationPreview datas={certificateDatas[certificateIndex]} onHide={hideHandler} />}
         <div className="w-full mt-4 md:mt-2">
             <h2 className="border-l-4 border-teal-500 px-2 text-xl font-semibold mb-1 md:mb-2">Certifications</h2>
             <div className="mx-1 border rounded-md p-4">
@@ -71,7 +79,7 @@ const Certifications = () => {
                 {/* Certification Image */}
                 <div className='flex flex-col items-center mb-2'>
                     <img className='md:w-1/2' src={certificateDatas[certificateIndex].pics[0]} alt={`${certificateDatas[certificateIndex].pics[0]}.png`} />
-                    <p className='italic text-sm text-blue-700 hover:underline hover:cursor-pointer'>Click here to see the preview</p>
+                    <p className='italic text-sm text-blue-700 hover:underline hover:cursor-pointer' onClick={showHandler}>Click here to see the preview</p>
                 </div>
                 {/* Controll button */}
                 <div className="flex justify-center">

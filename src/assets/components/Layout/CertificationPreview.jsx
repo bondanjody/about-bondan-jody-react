@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Modal from "../UI/Modal";
 import Backdrop from "../UI/Backdrop";
+import ReactDOM from 'react-dom';
 
 const Content = props => {
     return <Modal>
@@ -9,18 +10,19 @@ const Content = props => {
                 <p className='text-sm'>Issued by {props.datas.issuedBy}</p>
             </div>
             {/* Certification Image */}
-            <div className='flex flex-col items-center mb-2'>
-                <img className='md:w-1/2' src={certificateDatas[certificateIndex].pics[0]} alt={`${certificateDatas[certificateIndex].pics[0]}.png`} />
-                <p className='italic text-sm text-blue-700 hover:underline hover:cursor-pointer'>Click here to see the preview</p>
-            </div>
+            {props.datas.pics.length > 1 && <div className='flex flex-col items-center mb-2'>
+                <img className='md:w-1/2' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
+                <img className="md:w-1/2" src={props.datas.pics[1]} alt={`${props.datas.pics[1]}.png`} />
+            </div>}
+            <img className='md:w-1/2' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
     </Modal>
 }
 
-const CertificationPreview = () => {
+const CertificationPreview = props => {
     return (
         <Fragment>
-            <Backdrop />
-            {ReactDOM.createPortal(<Content onHide={props.onHide} />, document.getElementById('modal'))}
+            <Backdrop onHide={props.onHide} />
+            {ReactDOM.createPortal(<Content onHide={props.onHide} datas={props.datas} />, document.getElementById('modal'))}
         </Fragment>
     )
 }
