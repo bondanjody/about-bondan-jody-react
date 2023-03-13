@@ -5,10 +5,6 @@ import ReactDOM from 'react-dom';
 
 const Content = props => {
     return <Modal>
-            <div className='mb-2'>
-                <h3 className='text-2xl font-bold'>{props.datas.title}</h3>
-                <p className='text-sm'>Issued by {props.datas.issuedBy}</p>
-            </div>
             {/* Certification Image */}
             {props.datas.pics.length > 1 && <div className='flex flex-col items-center mb-2'>
                 <img className='md:w-5/6' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
