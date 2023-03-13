@@ -5,6 +5,7 @@ import Education from './assets/components/Layout/Education';
 import Languages from './assets/components/Layout/Languages';
 import Contact from './assets/components/Layout/Contact';
 import Certifications from './assets/components/Layout/Certifications';
+import Portfolio from './assets/components/Layout/Portfolio';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
             <Introduction />
             <Skills />
             <Certifications />
+            <Portfolio />
             <Languages />
             <Education />
             <Contact />
