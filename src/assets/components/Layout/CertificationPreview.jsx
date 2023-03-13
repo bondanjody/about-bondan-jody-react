@@ -11,10 +11,12 @@ const Content = props => {
             </div>
             {/* Certification Image */}
             {props.datas.pics.length > 1 && <div className='flex flex-col items-center mb-2'>
-                <img className='md:w-1/2' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
-                <img className="md:w-1/2" src={props.datas.pics[1]} alt={`${props.datas.pics[1]}.png`} />
+                <img className='md:w-5/6' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
+                <img className="md:w-5/6" src={props.datas.pics[1]} alt={`${props.datas.pics[1]}.png`} />
             </div>}
-            <img className='md:w-1/2' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
+            <div className='flex flex-col items-center mb-2'>
+                <img className='md:w-5/6' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
+            </div>
     </Modal>
 }
 
