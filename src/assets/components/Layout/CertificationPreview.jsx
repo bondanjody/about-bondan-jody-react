@@ -4,7 +4,7 @@ import Backdrop from "../UI/Backdrop";
 import ReactDOM from 'react-dom';
 
 const Content = props => {
-    return <Modal>
+    return <Modal onHide={props.onHide}>
             {/* Certification Image */}
             {props.datas.pics.length > 1 && <div className='flex flex-col items-center mb-2'>
                 <img className='md:w-5/6' src={props.datas.pics[0]} alt={`${props.datas.pics[0]}.png`} />
