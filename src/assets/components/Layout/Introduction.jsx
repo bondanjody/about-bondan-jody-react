@@ -10,7 +10,7 @@ const Introduction = props => {
                     <h1 className="text-2xl font-bold text-slate"><span className='bg-white text-teal-700 px-1 rounded-lg'>Hello, welcome !</span></h1>
                     <p>My name is <span className="text-3xl font-semibold">Bondan Jody Setyawan</span>.</p> 
                     <p>I am 23 years-old.</p>
-                    <p>And I am a 🌐 Web Developer focusing on Fronted. </p>
+                    <p>And I am a 🌐 Fullstack Web Developer. </p>
                 </div>
             </div>
 }
