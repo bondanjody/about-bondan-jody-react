@@ -13,7 +13,7 @@ const Skills = props => {
                 <h2 className="border-l-4 border-teal-500 px-2 text-xl font-semibold">Skills</h2>
                 {/* Skills container */}
                 <div className="m-2 lg:mx-16">
-                    <div className="p-4 h-16 rounded-lg flex items-center hover:bg-gray-700 hover:text-white hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 rounded-lg flex items-center">
                         <img src={htmlPic} alt={htmlPic} className="w-10 inline-block mr-4" /> 
                         <div className='w-full'>
                             <p>HTML</p>
@@ -22,7 +22,7 @@ const Skills = props => {
                             </div>
                         </div>  
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:bg-gray-700 hover:text-white hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={cssPic} alt={cssPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>CSS</p>
@@ -31,7 +31,7 @@ const Skills = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:text-white hover:bg-gray-700 hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={tailwindPic} alt={tailwindPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>Tailwind CSS</p>
@@ -40,7 +40,7 @@ const Skills = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:text-white hover:bg-gray-700 hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={jsPic} alt={jsPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>JavaScript</p>
@@ -49,7 +49,7 @@ const Skills = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:text-white hover:bg-gray-700 hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={phpPic} alt={phpPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>PHP</p>
@@ -58,7 +58,7 @@ const Skills = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:text-white hover:bg-gray-700 hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={mysqlPic} alt={mysqlPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>MySQL</p>
@@ -67,7 +67,7 @@ const Skills = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:text-white hover:bg-gray-700 hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={pythonPic} alt={pythonPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>Python</p>
@@ -76,7 +76,7 @@ const Skills = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:text-white hover:bg-gray-700 hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={gitPic} alt={gitPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>Git and GitHub</p>
@@ -85,7 +85,7 @@ const Skills = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center hover:text-white hover:bg-gray-700 hover:shadow-lg hover:cursor-pointer">
+                    <div className="p-4 h-16 mt-2 rounded-lg flex items-center">
                         <img src={linuxPic} alt={linuxPic} className="w-10 inline-block mr-4" />   
                         <div className='w-full'>
                             <p>Linux</p>
