@@ -79,14 +79,14 @@ const Certifications = () => {
                 {/* Certification Image */}
                 <div className='flex flex-col items-center mb-2'>
                     <img className='md:w-1/2' src={certificateDatas[certificateIndex].pics[0]} alt={`${certificateDatas[certificateIndex].pics[0]}.png`} />
-                    <p className='italic text-sm text-blue-700 hover:underline hover:cursor-pointer' onClick={showHandler}>Click here to see the preview</p>
+                    <p className='transition ease-in duration-300 italic text-sm text-blue-700 hover:text-slate-800 hover:cursor-pointer' onClick={showHandler}>Click here to see the preview</p>
                 </div>
                 {/* Controll button */}
                 <div className="flex justify-center">
-                    <div className="w-10 h-10 mr-1 hover:cursor-pointer" onClick={prevHandler}>
+                    <div className="transition ease-in-out duration-200 w-10 h-10 mr-1 rounded-full hover:cursor-pointer hover:shadow-md hover:shadow-slate-400 hover:-translate-y-1" onClick={prevHandler}>
                         <img src={leftArrowPic} alt={`${leftArrowPic}.png`} />
                     </div>
-                    <div className="w-10 h-10 hover:cursor-pointer" onClick={nextHandler}>
+                    <div className="transition ease-in-out duration-200 w-10 h-10 rounded-full hover:cursor-pointer hover:shadow-md hover:shadow-slate-400 hover:-translate-y-1" onClick={nextHandler}>
                         <img src={rightArrowPic} alt={`${rightArrowPic}.png`} />
                     </div>
                 </div>
