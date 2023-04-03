@@ -1,6 +1,10 @@
 # About Bondan Jody
 
-This site is made with Vite, ReactJS and Tailwind CSS
+Made with :
+
+1. Vite
+1. ReactJS
+1. TailwindCSS
 
 Feature :
 
