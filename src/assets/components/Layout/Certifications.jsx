@@ -8,6 +8,7 @@ import devHacksCert from '../../images/sertifikat-developer-life-hacks-menggunak
 import dutaBangsa1 from '../../images/Sertifikatdutabangsa1.jpg';
 import dutaBangsa2 from '../../images/Sertifikatdutabangsa2.jpg';
 import flutterCert from '../../images/sertifikat-everything-you-need-to-know-about-flutter-forward-certificate-1.png';
+import jarkomCert from '../../images/dicoding-developer-coaching-84-devops-dasar-dasar-jaringan-komputer-certificate_page-0001.jpg';
 import { Fragment, useState } from 'react';
 import CertificationPreview from './CertificationPreview';
 
@@ -17,11 +18,6 @@ const Certifications = () => {
 
     // Certificate Data
     const certificateDatas = [
-        {
-            title: 'Belajar Dasar Pemrograman Javascript',
-            issuedBy: 'Dicoding',
-            pics: [javascriptDasarCert1, javascriptDasarCert2, javascriptDasarCert3]
-        },
         {
             title: 'Sertifikat Kompetensi Duta Bangsa',
             issuedBy: 'Duta Bangsa',
@@ -33,6 +29,11 @@ const Certifications = () => {
             pics: [pythonPcapCert]
         },
         {
+            title: 'Belajar Dasar Pemrograman Javascript',
+            issuedBy: 'Dicoding',
+            pics: [javascriptDasarCert1, javascriptDasarCert2, javascriptDasarCert3]
+        },
+        {
             title: 'Developer Life Hacks Menggunakan ChatGPT',
             issuedBy: 'Dicoding',
             pics: [devHacksCert]
@@ -41,6 +42,11 @@ const Certifications = () => {
             title: 'Everything You Need to know About Flutter Forward!',
             issuedBy: 'Dicoding',
             pics: [flutterCert]
+        },
+        {
+            title: 'Dicoding Developer Coaching : Dasar Jaringan Komputer',
+            issuedBy: 'Dicoding',
+            pics: [jarkomCert]
         }
     ]
 
