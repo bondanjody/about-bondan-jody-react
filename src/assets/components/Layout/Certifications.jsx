@@ -7,6 +7,8 @@ import pythonPcapCert from '../../images/pythonpcap.png';
 import devHacksCert from '../../images/sertifikat-developer-life-hacks-menggunakan-chatgpt-certificate-1.png';
 import dutaBangsa1 from '../../images/Sertifikatdutabangsa1.jpg';
 import dutaBangsa2 from '../../images/Sertifikatdutabangsa2.jpg';
+import skompetensi1 from '../../images/sertifikatkompetensi1.jpg';
+import skompetensi2 from '../../images/sertifikatkompetensi2.jpg';
 import flutterCert from '../../images/sertifikat-everything-you-need-to-know-about-flutter-forward-certificate-1.png';
 import jarkomCert from '../../images/dicoding-developer-coaching-84-devops-dasar-dasar-jaringan-komputer-certificate_page-0001.jpg';
 import { Fragment, useState } from 'react';
@@ -32,6 +34,11 @@ const Certifications = () => {
             title: 'Belajar Dasar Pemrograman Javascript',
             issuedBy: 'Dicoding',
             pics: [javascriptDasarCert1, javascriptDasarCert2, javascriptDasarCert3]
+        },
+        {
+            title: 'Sertifikat Kompetensi : Rekayasa Perangkat Lunak',
+            issuedBy: 'SMKN 1 Bulukerto',
+            pics: [skompetensi1, skompetensi2]
         },
         {
             title: 'Developer Life Hacks Menggunakan ChatGPT',
